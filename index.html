@@ -1554,7 +1554,7 @@ const resume = {
     }
   ],
   certificates: [
-    { name: "人工智能训练师（初级）", org: "达摩院·阿里云智能服务事业部", icon: "🤖", date: "2026.08" },
+    { name: "人工智能训练师（初级）", org: "达摩院·阿里云智能服务事业部", icon: "🤖", date: "2026.08" }, { name: "人工智能训练师（高级）", org: "达摩院·阿里云智能服务事业部", icon: "🤖", date: "2026.09" },
     { name: "普通话二级甲等", org: "国家语言文字工作委员会", icon: "🗣️" },
     { name: "全国计算机等级考试", org: "教育部考试中心", icon: "💻" },
     { name: "高等学校英语应用能力", org: "【待补】", icon: "📚" },
@@ -1773,7 +1773,7 @@ function renderEducation() {
 
     // Certificate image (AI Trainer)
     const certImgWrap = createEl('div', 'cert-image-wrap fade-in');
-    certImgWrap.innerHTML = '<div class="cert-thumb" id="certThumb"><img src="' + getComputedStyle(document.documentElement).getPropertyValue('--bg-cert').trim().replace(/^url\(['"]?/,'').replace(/['"]?\)$/,'') + '" alt="人工智能训练师证书"><span class="cert-zoom-hint">🔍 点击放大</span></div><div class="cert-label">人工智能训练师（初级）· 达摩院·阿里云 · 2026.08</div>';
+    certImgWrap.innerHTML = '<div class="cert-thumb" id="certThumb"><img src="./ait-advanced-cert.jpg" alt="人工智能训练师证书"><span class="cert-zoom-hint">🔍 点击放大</span></div><div class="cert-label">人工智能训练师（高级）· 达摩院·阿里云 · 2026.09</div>';
     container.appendChild(certImgWrap);
     setTimeout(function() {
       var thumb = document.getElementById('certThumb');
